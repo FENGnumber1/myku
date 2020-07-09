@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>index.html</title>
+		<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+		
+	</head>
+	<body>
+		<div class="box">
+			<div class="anniu" onclick="js()"></div>
+			<div class="fen">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="wy">
+				<a href="./html/主页.html" >
+						<div class="b">
+							GO!
+						<p class="a">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</p>
+				</div>
+				</a>
+			</div>
+			<div class="videobox">
+			<video id="video" src="./video/金木背景视频.mp4" poster="black" loop muted autoplay></video>
+			<!-- </div>
+			<div class="Water" ></div>
+			</div> -->
+		<script type="text/javascript">
+			function js(){
+				var x=document.getElementById("video");
+				if(x.muted===false){
+					x.muted=true;
+				}
+				else{
+					x.muted=false;
+				}
+				
+			}
+		</script>
+	</body>
+</html>

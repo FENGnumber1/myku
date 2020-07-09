@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人</title>
+		<link rel="stylesheet" href="../css/个人.css" type="text/css">
+	</head>
+	<body>
+		<bt onclick="yy()"></bt>
+		<audio id="audio" src="../audio/夏の喚く.mp3" autoplay loop>当前浏览器不支持audio</audio>
+		<div class="head">
+			<!-- 头部 -->
+			<header>
+				<ul>
+					<li class="item"><a href="主页.html">首页</a></li>
+					<li class="item1"><a href="">个人</a></li>
+					<li class="item2"><a href="">关于</a></li>
+					<li class="item3"><a href="">帮助</a></li>
+					<li class="itrm4"><a href="../index.html">返回</a></li>
+				</ul>
+			</header>
+			
+			<div class="wenzi">Welcome to my website</div>
+			<!-- 内容 -->
+			<section>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</section>
+			
+		<footer>
+				<p>一切内容以实际为准</p>
+				<a href="">请联系我</a>
+		</footer>
+		<script type="text/jscript">
+			function yy(){
+				var yy=document.getElementById("audio");
+				if(yy.muted===false){
+					yy.muted=true;
+				}
+				else{
+					yy.muted=false;
+				}
+				
+			}
+		</script>
+	</body>
+</html>
