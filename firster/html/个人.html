@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人</title>
+		<link rel="stylesheet" href="../css/个人.css" type="text/css">
+	</head>
+	<body>
+		<bt onclick="yy()"></bt>
+		<audio id="audio" src="../audio/夏の喚く.mp3" autoplay loop>当前浏览器不支持audio</audio>
+		<div class="head">
+			<!-- 头部 -->
+			<header>
+				<ul>
+					<li class="item"><a href="主页.html">首页</a></li>
+					<li class="item1"><a href="个人.html">个人</a></li>
+					<li class="item2"><a href="关于.html">关于</a></li>
+					<li class="itrm4"><a href="../index.html">返回</a></li>
+				</ul>
+			</header>
+			<!-- 内容 -->
+			<section>
+				<div class="tx">
+					<img src="../imgers/金木.jpeg" alt="" class="tu">
+					<h2>虚无</h2>
+					<ul>
+						<li>性别:男</li>
+						<li>爱好:未知</li>
+					</ul>
+					
+				</div>
+				<div class="nr">
+					<h2>大一第二学期学习作品</h2>
+					<div>
+						<img src="../imgers/01.png" alt="">
+						<img src="../imgers/02.png" alt="">
+						<img src="../imgers/03.png" alt="">
+						<img src="../imgers/04.png" alt="">
+						<img src="../imgers/05.png" alt="">
+						<img src="../imgers/06.png" alt="">
+					</div>
+				</div>
+				<div class="nav"></div>
+			</section>
+			
+		<footer>
+				<p>一切内容以实际为准</p>
+				<a href="">请联系我</a>
+		</footer>
+		<script type="text/jscript">
+			function yy(){
+				var yy=document.getElementById("audio");
+				if(yy.muted===false){
+					yy.muted=true;
+				}
+				else{
+					yy.muted=false;
+				}
+				
+			}
+		</script>
+	</body>
+</html>
